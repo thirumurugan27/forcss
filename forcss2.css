@@ -4,10 +4,46 @@
 .h{
     background-color: black;
     color: white;
+    padding: 20px;
 }
-h1{
+h1,ul,li{
     display: inline;
 }
-ul,li{
-    display: inline;
+ul{
+    margin-left: 70%;
+    color: grey;
+}
+li:hover{
+    color: white;
+    cursor: pointer;
+}
+input{
+    width: 60%;
+    padding: 16px;
+}
+.s{
+    padding: 50px;
+    text-align: center;
+}
+.p{
+    text-align: center;
+}
+.box{
+    display: inline-block;
+    border-color: black;
+    border-width: 7px;
+    border-style: solid;
+    width: 220px;
+    
+}
+.box:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+
+.end{
+    text-align: center;
+    padding: 30px;
 }
